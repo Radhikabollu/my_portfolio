@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radhika Bollu's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Radhika Bollu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Radhika Bollu</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img  src="./assets/profile-pic.png" alt="Radhika Bollu profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Radhika Bollu</h1>
+            <p class="section__text__p2">Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/in/radhikabollu'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://https://github.com/Radhikabollu'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic-2.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Tech<br />Bachelor of Technology, Mallareddy Engineering College for Women<br />Expected 2025<br />CGPA: 9.08</p>
+                        <p>Board of Intermediate Education - "MPC", Narayana Junior College<br />2019-2021<br />GPA: 9.82</p>
+                        <p>Board of Secondary Education - "SSC", Fusco’s High School<br />Completed 2019<br />GPA: 10</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Aspiring software engineer currently pursuing a Bachelor’s degree in computer science with hands-on experience in software development and a strong foundation in data structures. Seeking to leverage programming skills and passion for technology to contribute to innovative projects at Google as a summer 2025 Software Engineering Intern.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Java</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>AWS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>OOPS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>DSA</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Cyber Security</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.jpg" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Smart Agriculture System</h2>
+                    <p>Developed a product integrating IoT and GSM technologies to enhance farming efficiency. The system includes a smart intrusion detection feature that alerts farmers to unauthorized entries and an automated irrigation mechanism that activates the motor based on soil moisture levels, ensuring optimal watering even in the farmer’s absence.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/smart_agri_system'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/smart_agri_system'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.jpg" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Blog Website</h2>
+                    <p>A blog website built using the MERN stack (MongoDB, Express.js, React, and Node.js) offers a dynamic and interactive platform for users to share and explore content. It features a robust backend for managing posts and user data, a responsive and intuitive frontend, and seamless integration between the server and client for a smooth user experience.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/Blogwebsite'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/Blogwebsite'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Loan Prediction with ML</h2>
+                    <p>Developed a loan approval prediction model using machine learning to enhance decision-making processes. This model analyzes applicant data to predict approval likelihood, improving accuracy and efficiency in the loan application assessment using Flask.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/Loan-prediction-with-ml'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Radhikabollu/Loan-prediction-with-ml'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:bolluradhikareddy2003@gmail.com">bolluradhikareddy2003@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/in/radhikabollu">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Radhika Bollu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
